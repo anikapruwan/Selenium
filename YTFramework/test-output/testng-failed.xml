@@ -1,57 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite1]">
-  <test thread-count="5" name="Command line test ef6bd1b5-3740-48be-85f0-81f6adf97bbb(failed)">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="org.testing.TestScripts.TC1">
-        <methods>
-          <include name="TC_01"/>
-          <include name="close"/>
-          <include name="launch"/>
-        </methods>
-      </class> <!-- org.testing.TestScripts.TC1 -->
-      <class name="org.testing.TestScripts.TC7">
-        <methods>
-          <include name="close"/>
-          <include name="launch"/>
-          <include name="TC_07"/>
-        </methods>
-      </class> <!-- org.testing.TestScripts.TC7 -->
-      <class name="org.testing.TestScripts.TC6">
-        <methods>
-          <include name="TC_06"/>
-          <include name="close"/>
-          <include name="launch"/>
-        </methods>
-      </class> <!-- org.testing.TestScripts.TC6 -->
-      <class name="org.testing.TestScripts.TC3">
-        <methods>
-          <include name="close"/>
-          <include name="TC_03"/>
-          <include name="launch"/>
-        </methods>
-      </class> <!-- org.testing.TestScripts.TC3 -->
-      <class name="org.testing.TestScripts.TC8">
-        <methods>
-          <include name="TC_08"/>
-          <include name="close"/>
-          <include name="launch"/>
-        </methods>
-      </class> <!-- org.testing.TestScripts.TC8 -->
-      <class name="org.testing.TestScripts.TC4">
-        <methods>
-          <include name="TC_04"/>
-          <include name="close"/>
-          <include name="launch"/>
-        </methods>
-      </class> <!-- org.testing.TestScripts.TC4 -->
-      <class name="org.testing.TestScripts.TC2">
-        <methods>
-          <include name="TC_02"/>
-          <include name="close"/>
-          <include name="launch"/>
-        </methods>
-      </class> <!-- org.testing.TestScripts.TC2 -->
       <class name="org.testing.TestScripts.TC5">
         <methods>
           <include name="TC_05"/>
@@ -59,6 +10,41 @@
           <include name="launch"/>
         </methods>
       </class> <!-- org.testing.TestScripts.TC5 -->
+      <class name="org.testing.TestScripts.TC4">
+        <methods>
+          <include name="TC_04"/>
+          <include name="close"/>
+          <include name="launch"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts.TC4 -->
+      <class name="org.testing.TestScripts.TC8">
+        <methods>
+          <include name="TC_08"/>
+          <include name="close"/>
+          <include name="launch"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts.TC8 -->
+      <class name="org.testing.TestScripts.TC6">
+        <methods>
+          <include name="TC_06"/>
+          <include name="close"/>
+          <include name="launch"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts.TC6 -->
+      <class name="org.testing.TestScripts.TC1">
+        <methods>
+          <include name="TC_01"/>
+          <include name="close"/>
+          <include name="launch"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts.TC1 -->
+      <class name="org.testing.TestScripts.TC2">
+        <methods>
+          <include name="TC_02"/>
+          <include name="close"/>
+          <include name="launch"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts.TC2 -->
     </classes>
-  </test> <!-- Command line test ef6bd1b5-3740-48be-85f0-81f6adf97bbb(failed) -->
-</suite> <!-- Failed suite [Suite1] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

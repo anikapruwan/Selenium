@@ -5,8 +5,7 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.Properties;
-
-
+import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testing.pages.Login;
@@ -32,7 +31,8 @@ public class Base
 		//
 		driver.manage().window().maximize();
 		driver.get("https://www.youtube.com/");
-		Thread.sleep(4000);
+		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+		//Thread.sleep(4000);
 		Logs.takeLogs("Base", "in Before method");
 	//	ScreenShotCapture.TakeScreeShot(driver, "../YTFramework/Screenshot/Test.png");
 		Login l = new Login(driver, pr);

@@ -20,7 +20,7 @@ public class TC8 extends Base
 	{
 		
 		driver.findElement(By.cssSelector(pr.getProperty("TC8_1"))).click();
-		Thread.sleep(4000);	
+	//	Thread.sleep(4000);	
 		ScreenShotCapture.TakeScreeShot(driver, "../YTFramework/Screenshot/TC4.png");
 	}
 	

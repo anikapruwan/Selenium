@@ -18,7 +18,7 @@ public class TC2 extends Base
 	{
 		
 		driver.findElement(By.xpath(pr.getProperty("TC2_1"))).click();
-		Thread.sleep(2000);
+	//	Thread.sleep(2000);
 		ScreenShotCapture.TakeScreeShot(driver, "/YTFramework/Screenshot/TC2.png");
 	}
 

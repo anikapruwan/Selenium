@@ -12,7 +12,7 @@ public class TC3 extends Base
 	 public void TC_03() throws InterruptedException
 	    {
 			driver.findElement(By.cssSelector(pr.getProperty("TC3_1"))).click();
-			Thread.sleep(2000);
+		//	Thread.sleep(2000);
 	    }
 
 }

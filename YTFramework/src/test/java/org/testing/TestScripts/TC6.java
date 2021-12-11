@@ -22,7 +22,7 @@ public class TC6 extends Base
 	{
     	VideoPlay vp = new VideoPlay(driver,pr);
 		vp.play();
-		Thread.sleep(10000);
+	//	Thread.sleep(10000);
 		driver.findElement(By.xpath(pr.getProperty("TC6_1"))).click();
 		Actions ac = new Actions(driver);
 		int i=0;
@@ -37,13 +37,13 @@ public class TC6 extends Base
 			Thread.sleep(2000);	
 		}
 		driver.findElement(By.cssSelector(pr.getProperty("TC6_3"))).click();
-		Thread.sleep(3000);
+	//	Thread.sleep(3000);
 	//	driver.findElement(By.xpath("//*[text()='Add a public comment...' or text()='Commenting publicly as ' or @*='Add a public comment...']")).sendKeys("This is an automated message for youtube");
 		driver.findElement(By.xpath(pr.getProperty("TC6_4"))).sendKeys("This is an automated message for youtube");
 
-		Thread.sleep(3000);
+	//	Thread.sleep(3000);
 		driver.findElement(By.xpath(pr.getProperty("TC6_5"))).click();
-		Thread.sleep(4000);	
+	//	Thread.sleep(4000);	
 		ScreenShotCapture.TakeScreeShot(driver, "../YTFramework/Screenshot/TC4.png");
 	}
 

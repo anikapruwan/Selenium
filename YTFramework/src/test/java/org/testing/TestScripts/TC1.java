@@ -19,7 +19,7 @@ public class TC1 extends Base
 	{
 		Logs.takeLogs("TC1", "Login Successful");
 		driver.findElement(By.xpath(pr.getProperty("TC1_1"))).click();
-		Thread.sleep(4000);
+	//	Thread.sleep(4000);
 		driver.findElement(By.xpath(pr.getProperty("TC1_2"))).click();
 		Logs.takeLogs("TC1", "TC1_Passed");
 	}

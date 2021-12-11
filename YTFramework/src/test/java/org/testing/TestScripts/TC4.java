@@ -24,9 +24,9 @@ public class TC4 extends Base
     	VideoPlay vp = new VideoPlay(driver,pr);
 		vp.play();
 		Assert.assertEquals(driver.getCurrentUrl(), expectedUrl);
-		Thread.sleep(4000);
+	//	Thread.sleep(4000);
 		driver.findElement(By.xpath(pr.getProperty("TC4_2"))).click();
-		Thread.sleep(4000);
+	//	Thread.sleep(4000);
 		ScreenShotCapture.TakeScreeShot(driver, "../YTFramework/Screenshot/TC4.png");
 		Asert.Assert1(driver.getCurrentUrl(), expectedUrl);
 	}

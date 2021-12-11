@@ -18,9 +18,9 @@ public class TC5 extends Base
 	{
 	VideoPlay vp = new VideoPlay(driver,pr);
 	vp.play();
-		Thread.sleep(4000);
+	//	Thread.sleep(4000);
 		driver.findElement(By.xpath(pr.getProperty("TC5_1"))).click();
-		Thread.sleep(4000);
+	//	Thread.sleep(4000);
 		ScreenShotCapture.TakeScreeShot(driver, "../YTFramework/Screenshot/TC4.png");
 	}
 
