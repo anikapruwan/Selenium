@@ -39,3 +39,14 @@
 2021-12-11 23:38:57  [Base] (main:) in Before method
 2021-12-11 23:40:51  [Base] (main:) in Before method
 2021-12-11 23:51:23  [Base] (main:) in Before method
+2021-12-12 00:18:21  [Base] (main:) in Before method
+2021-12-12 00:36:25  [Base] (main:) in Before method
+2021-12-12 00:46:56  [Base] (main:) in Before method
+2021-12-12 00:46:59  [TC1] (main:) Login Successful
+2021-12-12 00:47:04  [TC1] (main:) TC1_Passed
+2021-12-12 01:10:25  [Base] (main:) in Before method
+2021-12-12 01:10:28  [TC1] (main:) Login Successful
+2021-12-12 01:10:33  [TC1] (main:) TC1_Passed
+2021-12-12 01:17:15  [Base] (main:) in Before method
+2021-12-12 01:17:19  [TC1] (main:) Login Successful
+2021-12-12 01:17:23  [TC1] (main:) TC1_Passed

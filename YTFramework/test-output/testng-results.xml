@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-12-11T23:51:14 IST" name="Default suite" finished-at="2021-12-11T23:53:09 IST" duration-ms="114870">
+  <suite started-at="2021-12-12T01:17:11 IST" name="Default suite" finished-at="2021-12-12T01:17:28 IST" duration-ms="16598">
     <groups>
     </groups>
-    <test started-at="2021-12-11T23:51:14 IST" name="Default test" finished-at="2021-12-11T23:53:09 IST" duration-ms="114870">
-      <class name="org.testing.TestScripts.TC8">
-        <test-method is-config="true" signature="launch()[pri:0, instance:org.testing.TestScripts.TC8@1613674b]" started-at="2021-12-11T23:51:14 IST" name="launch" finished-at="2021-12-11T23:52:52 IST" duration-ms="97225" status="PASS">
+    <test started-at="2021-12-12T01:17:11 IST" name="Default test" finished-at="2021-12-12T01:17:28 IST" duration-ms="16598">
+      <class name="org.testing.TestScripts.TC1">
+        <test-method is-config="true" signature="launch()[pri:0, instance:org.testing.TestScripts.TC1@1613674b]" started-at="2021-12-12T01:17:11 IST" name="launch" finished-at="2021-12-12T01:17:19 IST" duration-ms="7384" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method signature="TC_08()[pri:0, instance:org.testing.TestScripts.TC8@1613674b]" started-at="2021-12-11T23:52:52 IST" name="TC_08" finished-at="2021-12-11T23:52:57 IST" duration-ms="5168" status="PASS">
+        <test-method signature="TC_01()[pri:0, instance:org.testing.TestScripts.TC1@1613674b]" started-at="2021-12-12T01:17:19 IST" name="TC_01" finished-at="2021-12-12T01:17:24 IST" duration-ms="4964" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_08 -->
-        <test-method is-config="true" signature="close()[pri:0, instance:org.testing.TestScripts.TC8@1613674b]" started-at="2021-12-11T23:52:57 IST" name="close" finished-at="2021-12-11T23:53:09 IST" duration-ms="12445" status="PASS">
+        </test-method> <!-- TC_01 -->
+        <test-method is-config="true" signature="close()[pri:0, instance:org.testing.TestScripts.TC1@1613674b]" started-at="2021-12-12T01:17:24 IST" name="close" finished-at="2021-12-12T01:17:28 IST" duration-ms="4221" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-      </class> <!-- org.testing.TestScripts.TC8 -->
+      </class> <!-- org.testing.TestScripts.TC1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

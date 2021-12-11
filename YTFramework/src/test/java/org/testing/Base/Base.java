@@ -46,6 +46,7 @@ public class Base
 	{
     	Logout l = new Logout(driver, pr);
     	l.signout();
+    	
 	}
 	
 
