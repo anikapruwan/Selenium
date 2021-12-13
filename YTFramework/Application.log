@@ -50,3 +50,26 @@
 2021-12-12 01:17:15  [Base] (main:) in Before method
 2021-12-12 01:17:19  [TC1] (main:) Login Successful
 2021-12-12 01:17:23  [TC1] (main:) TC1_Passed
+2021-12-12 01:31:18  [Base] (main:) in Before method
+2021-12-13 00:28:58  [Base] (main:) in Before method
+2021-12-13 00:29:07  [Base] (main:) in Before method
+2021-12-13 00:29:14  [Base] (main:) in Before method
+2021-12-13 01:01:16  [Base] (main:) in Before method
+2021-12-13 20:26:58  [Base] (main:) in Before method
+2021-12-13 20:27:02  [TC1] (main:) Login Successful
+2021-12-13 20:28:31  [Base] (main:) in Before method
+2021-12-13 20:28:34  [TC1] (main:) Login Successful
+2021-12-13 20:37:10  [Base] (main:) in Before method
+2021-12-13 20:37:13  [TC1] (main:) Login Successful
+2021-12-13 20:37:19  [TC1] (main:) TC1_Passed
+2021-12-13 20:37:25  [Base] (main:) in Before method
+2021-12-13 20:37:43  [Base] (main:) in Before method
+2021-12-13 20:45:24  [Base] (main:) in Before method
+2021-12-13 21:24:58  [Base] (org.testing.Trigger.Runner.main():) in Before method
+2021-12-13 21:25:01  [TC1] (org.testing.Trigger.Runner.main():) Login Successful
+2021-12-13 21:25:07  [TC1] (org.testing.Trigger.Runner.main():) TC1_Passed
+2021-12-13 21:25:14  [Base] (org.testing.Trigger.Runner.main():) in Before method
+2021-12-13 21:25:29  [Base] (org.testing.Trigger.Runner.main():) in Before method
+2021-12-13 21:47:06  [Base] (org.testing.Trigger.Runner.main():) in Before method
+2021-12-13 21:47:09  [TC1] (org.testing.Trigger.Runner.main():) Login Successful
+2021-12-13 21:47:14  [TC1] (org.testing.Trigger.Runner.main():) TC1_Passed
