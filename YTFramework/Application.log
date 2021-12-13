@@ -73,3 +73,4 @@
 2021-12-13 21:47:06  [Base] (org.testing.Trigger.Runner.main():) in Before method
 2021-12-13 21:47:09  [TC1] (org.testing.Trigger.Runner.main():) Login Successful
 2021-12-13 21:47:14  [TC1] (org.testing.Trigger.Runner.main():) TC1_Passed
+2021-12-13 23:00:27  [Base] (org.testing.Trigger.Runner.main():) in Before method
