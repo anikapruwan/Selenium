@@ -73,3 +73,17 @@
 2021-12-13 21:47:06  [Base] (org.testing.Trigger.Runner.main():) in Before method
 2021-12-13 21:47:09  [TC1] (org.testing.Trigger.Runner.main():) Login Successful
 2021-12-13 21:47:14  [TC1] (org.testing.Trigger.Runner.main():) TC1_Passed
+2021-12-13 23:00:27  [Base] (org.testing.Trigger.Runner.main():) in Before method
+2021-12-18 14:36:52  [Base] (main:) in Before method
+2021-12-18 14:40:05  [Base] (main:) in Before method
+2021-12-18 22:26:44  [Base] (main:) in Before method
+2021-12-19 00:49:05  [Base] (main:) in Before method
+2021-12-19 00:49:27  [Base] (main:) in Before method
+2021-12-19 00:49:30  [TC1] (main:) Login Successful
+2021-12-19 00:49:35  [TC1] (main:) TC1_Passed
+2021-12-19 00:50:10  [Base] (main:) in Before method
+2021-12-19 00:50:13  [TC1] (main:) Login Successful
+2021-12-19 00:50:18  [TC1] (main:) TC1_Passed
+2021-12-19 01:08:21  [Base] (main:) in Before method
+2021-12-19 01:08:24  [TC1] (main:) Login Successful
+2021-12-19 01:08:30  [TC1] (main:) TC1_Passed
