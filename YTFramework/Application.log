@@ -84,3 +84,6 @@
 2021-12-19 00:50:10  [Base] (main:) in Before method
 2021-12-19 00:50:13  [TC1] (main:) Login Successful
 2021-12-19 00:50:18  [TC1] (main:) TC1_Passed
+2021-12-19 01:08:21  [Base] (main:) in Before method
+2021-12-19 01:08:24  [TC1] (main:) Login Successful
+2021-12-19 01:08:30  [TC1] (main:) TC1_Passed

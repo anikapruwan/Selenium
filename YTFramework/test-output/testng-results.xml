@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-12-19T00:50:05 IST" name="Default suite" finished-at="2021-12-19T00:50:25 IST" duration-ms="19931">
+  <suite started-at="2021-12-19T01:08:16 IST" name="Default suite" finished-at="2021-12-19T01:08:35 IST" duration-ms="18458">
     <groups>
     </groups>
-    <test started-at="2021-12-19T00:50:05 IST" name="Default test" finished-at="2021-12-19T00:50:25 IST" duration-ms="19931">
+    <test started-at="2021-12-19T01:08:16 IST" name="Default test" finished-at="2021-12-19T01:08:35 IST" duration-ms="18458">
       <class name="org.testing.TestScripts.TC1">
-        <test-method is-config="true" signature="launch()[pri:0, instance:org.testing.TestScripts.TC1@1613674b]" started-at="2021-12-19T00:50:05 IST" name="launch" finished-at="2021-12-19T00:50:13 IST" duration-ms="7983" status="PASS">
+        <test-method is-config="true" signature="launch()[pri:0, instance:org.testing.TestScripts.TC1@1613674b]" started-at="2021-12-19T01:08:16 IST" name="launch" finished-at="2021-12-19T01:08:24 IST" duration-ms="7834" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method signature="TC_01()[pri:0, instance:org.testing.TestScripts.TC1@1613674b]" started-at="2021-12-19T00:50:13 IST" name="TC_01" finished-at="2021-12-19T00:50:18 IST" duration-ms="5076" status="PASS">
+        <test-method signature="TC_01()[pri:0, instance:org.testing.TestScripts.TC1@1613674b]" started-at="2021-12-19T01:08:24 IST" name="TC_01" finished-at="2021-12-19T01:08:30 IST" duration-ms="5518" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_01 -->
-        <test-method is-config="true" signature="close()[pri:0, instance:org.testing.TestScripts.TC1@1613674b]" started-at="2021-12-19T00:50:18 IST" name="close" finished-at="2021-12-19T00:50:25 IST" duration-ms="6845" status="FAIL">
+        <test-method is-config="true" signature="close()[pri:0, instance:org.testing.TestScripts.TC1@1613674b]" started-at="2021-12-19T01:08:30 IST" name="close" finished-at="2021-12-19T01:08:35 IST" duration-ms="5074" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
               <![CDATA[no such window: target window already closed
@@ -24,8 +24,8 @@ from unknown error: web view not found
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'Anirudhs-MacBook-Pro.local', ip: '2405:201:6814:d030:9123:3704:51a3:a16e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.1', java.version: '16.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /var/folders/mp/n11ns4hd5wl...}, goog:chromeOptions: {debuggerAddress: localhost:57897}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 0b4b806abeab91cbe83dc9ecac2e09c6]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /var/folders/mp/n11ns4hd5wl...}, goog:chromeOptions: {debuggerAddress: localhost:62392}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2334810512d36bf204ec791e23508815]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
@@ -34,8 +34,8 @@ from unknown error: web view not found
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'Anirudhs-MacBook-Pro.local', ip: '2405:201:6814:d030:9123:3704:51a3:a16e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.1', java.version: '16.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /var/folders/mp/n11ns4hd5wl...}, goog:chromeOptions: {debuggerAddress: localhost:57897}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 0b4b806abeab91cbe83dc9ecac2e09c6
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /var/folders/mp/n11ns4hd5wl...}, goog:chromeOptions: {debuggerAddress: localhost:62392}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2334810512d36bf204ec791e23508815
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
