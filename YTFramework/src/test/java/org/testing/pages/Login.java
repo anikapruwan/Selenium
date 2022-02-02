@@ -1,5 +1,6 @@
 package org.testing.pages;
 
+import java.util.List;
 import java.util.Properties;
 
 import org.openqa.selenium.By;
@@ -23,7 +24,8 @@ public class Login
 	public void signin(String username, String password) throws InterruptedException
 	{
 		//driver.findElement(By.xpath(pr.getProperty("Login_1"))).click();
-		driver.findElement(By.xpath("(//tp-yt-paper-button[@aria-label='Sign in'])[2]")).click();
+	List<WebElement> els=	driver.findElements(By.xpath("//tp-yt-paper-button[@aria-label='Sign in']"));
+	els.get(1).click();
 		//Thread.sleep(2000);
 		driver.findElement(By.id(pr.getProperty("Login_2"))).sendKeys("vish090amit");
 		//Thread.sleep(2000);
