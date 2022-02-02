@@ -5,7 +5,6 @@ import org.testng.annotations.Test;
 
 import org.openqa.selenium.By;
 
-
 import org.testing.Base.Base;
 import org.testing.utilities.Logs;
 
@@ -22,6 +21,7 @@ public class TC1 extends Base
 	//	Thread.sleep(4000);
 		driver.findElement(By.xpath(pr.getProperty("TC1_2"))).click();
 		Logs.takeLogs("TC1", "TC1_Passed");
+		
 	}
 	
 	
