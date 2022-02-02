@@ -41,7 +41,8 @@ public class TC6 extends Base
 	//	driver.findElement(By.xpath("//*[text()='Add a public comment...' or text()='Commenting publicly as ' or @*='Add a public comment...']")).sendKeys("This is an automated message for youtube");
 		driver.findElement(By.xpath(pr.getProperty("TC6_4"))).sendKeys("This is an automated message for youtube");
 
-	//	Thread.sleep(3000);
+	//	Thread.sleep(3000); //	Thread.sleep(3000);
+//		Thread.sleep(3000); //	Thread.sleep(3000);
 		driver.findElement(By.xpath(pr.getProperty("TC6_5"))).click();
 	//	Thread.sleep(4000);	
 		ScreenShotCapture.TakeScreeShot(driver, "../YTFramework/Screenshot/TC4.png");
