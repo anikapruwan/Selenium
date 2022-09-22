@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-12-20T02:25:34 IST" name="Default suite" finished-at="2021-12-20T02:25:53 IST" duration-ms="18599">
+  <suite started-at="2022-09-12T13:11:15 IST" name="Default suite" finished-at="2022-09-12T13:11:56 IST" duration-ms="41109">
     <groups>
     </groups>
-    <test started-at="2021-12-20T02:25:34 IST" name="Default test" finished-at="2021-12-20T02:25:53 IST" duration-ms="18599">
+    <test started-at="2022-09-12T13:11:15 IST" name="Default test" finished-at="2022-09-12T13:11:56 IST" duration-ms="41109">
       <class name="org.testing.TestScripts.TC1">
-        <test-method is-config="true" signature="launch()[pri:0, instance:org.testing.TestScripts.TC1@1613674b]" started-at="2021-12-20T02:25:34 IST" name="launch" finished-at="2021-12-20T02:25:43 IST" duration-ms="8569" status="PASS">
+        <test-method is-config="true" signature="launch()[pri:0, instance:org.testing.TestScripts.TC1@15aab8c6]" started-at="2022-09-12T13:11:15 IST" name="launch" finished-at="2022-09-12T13:11:40 IST" duration-ms="25271" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method signature="TC_01()[pri:0, instance:org.testing.TestScripts.TC1@1613674b]" started-at="2021-12-20T02:25:43 IST" name="TC_01" finished-at="2021-12-20T02:25:48 IST" duration-ms="5400" status="PASS">
+        <test-method signature="TC_01()[pri:0, instance:org.testing.TestScripts.TC1@15aab8c6]" started-at="2022-09-12T13:11:40 IST" name="TC_01" finished-at="2022-09-12T13:11:47 IST" duration-ms="6760" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_01 -->
-        <test-method is-config="true" signature="close()[pri:0, instance:org.testing.TestScripts.TC1@1613674b]" started-at="2021-12-20T02:25:48 IST" name="close" finished-at="2021-12-20T02:25:53 IST" duration-ms="4599" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:org.testing.TestScripts.TC1@15aab8c6]" started-at="2022-09-12T13:11:47 IST" name="close" finished-at="2022-09-12T13:11:56 IST" duration-ms="9041" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->

@@ -18,7 +18,7 @@ public class TC6 extends Base
 {
 
     @Test
-	public void TC_06() throws InterruptedException, IOException
+ 	public void TC_06() throws InterruptedException, IOException
 	{
     	VideoPlay vp = new VideoPlay(driver,pr);
 		vp.play();
